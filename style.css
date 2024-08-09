@@ -15,7 +15,8 @@
   }
   
   body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: white;
   }
 
   .nav{
@@ -197,7 +198,125 @@
     font-weight: 300;
     font-size: .9rem;
     color: rgb(196, 196, 196);
-    margin: .5rem;
+    margin: .5rem;}
+
+/* main sector1 */
+   
+.exercise1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  color: white;
+  width:240px;
+  text-align: center;
+  margin: 0 5px;
+}
+.exname{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: .2rem;
 
 }
+
+.sector1{
+  max-width: 1440px;
+  max-height: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.exercises{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px auto;
+}
+.eximg{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+
+}
+.t1{
+  text-align: center;
+
+}
+.rext{
+ border: 1px solid rgba(128, 128, 128, 0);
+ width: 400px;
+
+}
+.run{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin:0 ;
+}
+.rex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:970px;
+  border: 1px solid rgba(128, 128, 128, 0);
+  border-radius: 15px;
+  margin: 50px auto;
+  padding: 21px;
+  background-color: rgb(43, 41, 41);]
  
+}
+.rimg{
+   border: 1px solid rgba(128, 128, 128, 0);
+   border-radius: 10px;
+}
+.jbtn{
+  color: white;
+  width: 210px;
+  padding: 10px;
+  border: 1px solid rgb(255, 51, 0);
+  background-color: rgb(255, 51, 0);
+  border-radius: 23px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+ 
+/* main sector2 */
+
+.sector2{
+  background-color: black;
+  margin: 0 auto;
+  width: 1440px;
+ 
+}
+.big2{
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+
+}
+.tex{
+  display: flex;
+  margin: 0 auto;
+  flex-direction:column;
+  max-width: 1000px;
+ padding-bottom: 50px;
+}
+.picgrid{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: 1050px;
+margin: 0 auto;
+padding-left: 50px;
+
+}
+/* filters */
+
+.pics1{
+  filter: sepia(50%);
+}
