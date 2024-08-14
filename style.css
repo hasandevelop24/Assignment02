@@ -57,16 +57,15 @@
   }
   .name{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     color: orangered;
     font-style: italic;
-    margin-left: 2rem;
+    margin-left: 1rem;
     
   }
   .banner{
     background-color: #0c0b0b;
     max-width: 1440px;
-    height: 725px;
     margin: 0 auto;
   }
   .bold{
@@ -86,7 +85,6 @@
     margin: 3rem 15rem;
     text-align: start;
     max-width: 720px;
-    max-height: 725;
    margin-top: 1rem;
     max-width: 50%;
    
@@ -109,11 +107,13 @@
     align-items: center;
     margin: 0 auto;
     margin-right: 30rem;
+    
   }
   .image{
     max-width: 100%;
     display: flex;
     margin-left: -6rem;
+    margin-bottom: 0px;
   
   }
   .upper{
@@ -510,7 +510,7 @@ input::placeholder{
     max-width: 1440px;
     margin: 0px auto;
     background-color: rgb(27, 27, 27);
-    min-height: 500px;
+   
 
   }
   .footerleft{
@@ -558,4 +558,13 @@ input::placeholder{
     margin-top: -40px;
   }
 
-  
+  @media screen (max-width:576px){
+
+      .nav{
+        max-width: 560px;
+        display:flex;
+        justify-content:space-between;
+      }
+
+  }
+    
